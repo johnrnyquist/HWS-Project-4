@@ -1,11 +1,3 @@
-//
-//  ViewController.swift
-//  Project4
-//
-//  Created by John Nyquist on 3/14/19.
-//  Copyright © 2019 Nyquist Art + Logic LLC. All rights reserved.
-//
-
 import UIKit
 import WebKit
 
