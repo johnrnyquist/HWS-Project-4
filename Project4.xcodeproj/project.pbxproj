@@ -12,6 +12,7 @@
 		8DC9832E223B25AD0076FE7B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DC9832C223B25AD0076FE7B /* Main.storyboard */; };
 		8DC98330223B25AE0076FE7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DC9832F223B25AE0076FE7B /* Assets.xcassets */; };
 		8DC98333223B25AE0076FE7B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DC98331223B25AE0076FE7B /* LaunchScreen.storyboard */; };
+		8DC9833B223C3C1B0076FE7B /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC9833A223C3C1B0076FE7B /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		8DC9832F223B25AE0076FE7B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8DC98332223B25AE0076FE7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8DC98334223B25AE0076FE7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DC9833A223C3C1B0076FE7B /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				8DC98328223B25AD0076FE7B /* AppDelegate.swift */,
 				8DC9832A223B25AD0076FE7B /* ViewController.swift */,
+				8DC9833A223C3C1B0076FE7B /* TableViewController.swift */,
 				8DC9832C223B25AD0076FE7B /* Main.storyboard */,
 				8DC9832F223B25AE0076FE7B /* Assets.xcassets */,
 				8DC98331223B25AE0076FE7B /* LaunchScreen.storyboard */,
@@ -136,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8DC9832B223B25AD0076FE7B /* ViewController.swift in Sources */,
+				8DC9833B223C3C1B0076FE7B /* TableViewController.swift in Sources */,
 				8DC98329223B25AD0076FE7B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
