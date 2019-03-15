@@ -5,7 +5,7 @@ class ViewController: UIViewController, WKNavigationDelegate {
     
     var webView: WKWebView!
     var progressView: UIProgressView!
-    var websites = ["apple.com", "hackingwithswift.com"]
+    var websites: [String]!
     var selectedWebsite: String!
     
     //MARK: - UIViewController

@@ -2,7 +2,7 @@ import UIKit
 
 class TableViewController: UITableViewController {
 
-    var websites = ["apple.com", "hackingwithswift.com"]
+    var websites = ["apple.com", "hackingwithswift.com", "nyquist.net"]
 
     
     //MARK: - UIViewController class
@@ -46,6 +46,7 @@ class TableViewController: UITableViewController {
     // This class is the delegate.
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         if let detailView = storyboard?.instantiateViewController(withIdentifier: "Detail") as? ViewController {
+            detailView.websites = websites
             detailView.selectedWebsite = websites[indexPath.row]
             detailView.title = "\(websites[indexPath.row])"
             // Pushes a view controller onto the receiver’s stack and updates the display. Note it is animated.
